@@ -1,0 +1,20 @@
+export const clients=[
+    {
+     name:"chandra",
+     contactdetails:{phone:"8332001663",Mail:"chandrasekhar@gmail.com"},
+     propertyaddress:"hyderbad,tealangana",
+     ID:"6545678",
+    },
+    {
+        name:"sekhar",
+        contactdetails:{phone:"8332001663",Mail:"chandrasekhar@gmail.com"},
+        propertyaddress:"hyderbad,tealangana",
+        ID:"6545678",
+       },
+       {
+        name:"shekhar",
+        contactdetails:{phone:"8332001663",Mail:"chandrasekhar@gmail.com"},
+        propertyaddress:"hyderbad,tealangana",
+        ID:"6545678",
+       }
+]

@@ -1,0 +1,156 @@
+.Lista-property-con{
+    border: 1px solid black;
+    padding: 1rem 2.5rem;
+}
+.list-head{
+    padding: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 1rem;
+}
+/* .list-head img:hover{
+    cursor: pointer;
+} */
+.list-head h1{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E5C08;
+}
+.main{
+    margin: 30px;
+    font-family: "Roboto";
+}
+.mains{
+    margin: 20px;
+    font-size: 12px;
+}
+.profile-ent{
+    background-color: #FFD2B1;
+    margin: 20px;
+    color: #955108;
+    border-radius: 20px;
+
+}
+.incont{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  .nn{
+    margin-top: 10px;
+  }
+  .nns{
+    margin-top: 30px;
+  }
+  .ii{
+    margin-left: 30%;
+    width: 60px;
+  }
+ 
+
+  .hea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0; 
+}
+
+.sm {
+    display: flex;
+    align-items: center;
+}
+
+.ho {
+    padding-right: 20px;
+}
+
+.o {
+    margin-left: 10px; 
+}
+
+.sear {
+    padding: 5px;
+    border: 1px solid #ccc; 
+    margin-left: 10px; 
+}
+
+.sea {
+    display: flex;
+    align-items: center;
+}
+
+.sy {
+    display: flex;
+    align-items: center;
+}
+
+.sy div {
+    padding-right: 15px;
+}
+
+.p {
+    margin-left: 5px; 
+}
+
+.sys{
+    display: flex;
+    align-items: center;
+    background-color: orange; 
+    border-radius: 30px;
+    padding-right: 10px;
+}
+
+.b1{
+    display: flex;
+    justify-content: center;
+}
+.b2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b2las{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sor{
+    padding-right: 10px;
+}
+.mm{
+    align-items: center;
+}
+.jjjj{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 400px
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: none;
+}
+
+
+
+
+/* .bl:hover{
+    border-radius: 10px;
+} */

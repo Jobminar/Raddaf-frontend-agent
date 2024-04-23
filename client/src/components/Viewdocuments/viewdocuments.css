@@ -1,0 +1,91 @@
+.Lista-property-con{
+    border: 1px solid black;
+    padding: 1rem 2.5rem;
+}
+.list-head{
+    padding: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 1rem;
+}
+.list-head img:hover{
+    cursor: pointer;
+}
+.list-head h1{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E5C08;
+}
+.seconddrop{
+    margin-left: auto;
+}
+.messaa{
+    display: flex;
+    justify-content: start;
+}
+.mmm{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*  */
+.maincont{
+    margin: 40px;
+}
+
+.upimg{
+    background-color: #D9D9D9;
+    height: 250px;
+    width: 20%;
+    margin-top: 20px;
+    padding: 50px;
+}
+.upmg{
+    margin: 50px;
+}
+.cont2{
+    display: flex;
+}
+.cont3{
+    width: 80%;
+    height: auto;
+    margin-left: 30px;
+    
+}
+
+.contche{
+    display: flex;
+    align-items: center;
+}
+
+.doc{
+    padding-left: 10px;
+}
+.cont4{
+    display: grid;
+    justify-content: flex-end;
+    grid-template-columns: repeat(2, 1fr);
+}
+.bpara{
+    background-color: #FFECDE;
+    color: #955108;
+    padding: 20px;
+}
+.main{
+    color: #955108;
+}
+
+.rooms-detai{
+    display: flex;
+      column-gap: 2rem;
+      align-items: baseline;
+      
+  }

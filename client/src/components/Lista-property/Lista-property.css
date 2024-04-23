@@ -1,0 +1,572 @@
+.Lista-property-con{
+    /* border: 1px solid black; */
+    padding: 0rem 2.5rem;
+}
+.list-head{
+    padding: 0rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 1rem;
+}
+.list-head img:hover{
+    cursor: pointer;
+}
+.list-head h1{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E5C08;
+
+}
+.upload-image-documents{
+    display: flex;
+    justify-content: start;
+}
+.upload-image{
+    /* border: 1px solid black; */
+}
+.upload-documents{
+    /* border: 1px solid black; */
+}
+.button-upload{
+    background-color: white;
+ 
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.button-upload h1{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E5C08;
+    margin: 0px;
+}
+.button-upload p{
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E5C08;
+    margin: 0px;
+}
+
+/* lisyt tail */
+.list-tail{
+    margin: 2rem 0rem;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 40% 35% 25%;
+}
+.property-description{
+    /* border: 1px solid green; */
+}
+.property-description h1{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #9E5C08;
+    margin: 0px;
+
+}
+.property-description p{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #867878;
+    margin: 0px;
+
+}
+.property-dimensions-lw{
+    /* border: 1px solid green; */
+  width: 100%;
+   
+}
+.property-dimensions-main{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction:  column;
+    row-gap: 1rem;
+}
+.property-dimensions-sub{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.property-dimensions-lw h1{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #9E5C08;
+    margin: 0px;
+    align-self: self-start;
+    
+}
+div.dimensions-lw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.3rem;
+    /* border: 1px solid black; */
+    height: 2rem;
+}
+.dimensions-lw input{
+    border: none;
+    /* border-bottom: 1px solid black; */
+    font-size: 15px;
+    width: 4rem;
+    height: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #9E5C08;
+    margin: 0px;
+}
+dimensions-lw p{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #867878;
+    margin: 0px;
+}
+
+
+
+.rooms-info{
+  
+   
+    /* border: 1px solid black; */
+}
+.rooms-info-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    padding-left: 2rem;
+}
+.rooms-info h1{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #9E5C08;
+    margin: 0px;
+}
+.rooms-info div{
+    padding: 0rem 2rem;
+    display: flex;
+    column-gap: 1rem;
+    
+}
+.rooms-info div input{
+    border: none;
+    border-bottom: 1px solid #9E5C08;
+    font-size: 20px;
+    width: 4rem;
+}
+/* -----------------------------------filters----------------------------------- */
+.filter-section{
+    /* border: 1px solid black; */
+    margin: 1rem ;
+}
+.custom-radio input[type="radio"] {
+    display: none;
+}
+
+/* Style the custom radio button */
+.custom-radio input[type="radio"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #9E5C08; /* Change the border color */
+    margin-right: 5px;
+}
+
+/* Style when the radio button is checked */
+.custom-radio input[type="radio"]:checked + label:before {
+    background-color: #9E5C08; /* Change the fill color */
+}
+.for-sale-filter{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-bottom: 1px solid #9E5C08; */
+    border-top: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);/* Example shadow values */
+}
+.commercial-residential{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    padding: 1rem 0rem;
+   
+
+}
+.commercial-residential label{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E5C08;
+}
+.to-let-filter {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);/* Example shadow values */
+  border: 1px solid #9E5C08;
+  border-top: none;
+}
+.to-let-filter-sub{
+    padding: 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 1rem;
+    /* border: 1px solid #9E5C08; */
+    
+}
+.commercial-residential-rental{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 2rem;
+    padding: 0.5rem 0rem;
+    border-bottom: 1px solid #9E5C08;
+}
+
+
+.commercial-residential-rental label{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E5C08;
+}
+.commercial-residential-rental div{
+    display: flex;
+    column-gap: 1rem;
+    justify-content: left;
+}
+.onlytype{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 2rem;
+    padding-bottom: 0.5rem ;
+    border-bottom: 1px solid #9E5C08;
+    /* border: 1px solid black; */
+}
+.onlytype label{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E5C08;
+}
+.billsonly{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 2rem;
+    padding-bottom: 0.5rem ;
+    border-bottom: 1px solid #9E5C08;
+    /* border: 1px solid black; */
+}
+.billsonly label{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E5C08;
+}
+/*----------------------------------------------- nearby ---------------------------------------------*/
+
+.nearby-con{
+    /* border: 1px solid black; */
+    padding: 0rem 1rem;
+   
+}
+.nearby-sub-con{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    padding: 1rem;
+    column-gap: 2rem;
+}
+.nearby-sub-con p{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+   color: #9E5C08;
+   margin: 5px; 
+}
+.nearby-con h1{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E5C08;
+    margin: 0px;
+}
+.access{
+    display: flex;
+    column-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.accesskm{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    width: 2.5rem;
+    padding: 0.2rem;
+}
+.nameofaccess{
+    border: 1px solid  #FFECDE;
+    font-size: 15px;
+    width: 12rem;
+    background-color:  #FFECDE;
+    padding: 0.5rem;
+}
+.property-viewing-schedule{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.customLocalizationProvider {
+    width: 10rem;
+    height: 1rem;
+    /* Add other styles as needed */
+  }
+  
+  .customDatePicker {
+    width: 10rem;
+   background-color: #FFECDE;
+    /* Add other styles as needed */
+  }
+  
+/* contact details */
+
+.contact-details{
+    /* border: 1px solid black; */
+    margin: 2rem 0rem;
+   display: flex;
+   flex-direction: column;
+}
+.contact-sub-details{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* border: 1px solid black; */
+    padding: 1rem 0rem;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    padding-left: 5rem;
+}
+.contact-sub-details-mini{
+    display: flex;
+    justify-content: left;
+   
+    /* align-items: center; */
+    /* border: 1px solid black; */
+}
+.textfield{
+    height: 1rem;
+}
+
+.contact-details h1{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E5C08;
+    margin: 0px;
+
+}
+
+.contact-sub-details p{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E5C08;
+    margin: 5px;    
+}
+
+.buttons{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    column-gap: 1rem;
+}
+.buttons button{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: #9E5C08;
+    color: white;
+    border: none;
+}
+.buttons button:hover{
+    cursor: pointer;
+}
+
+/* Image document */
+.image-document{
+    /* border: 1px solid black; */
+    padding: 1rem 0rem;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.image-upload{
+    /* border: 1px solid black; */
+}
+.image-upload-sub{
+    width: 14rem;
+    height: 18rem;
+    background-color: #867878;
+}
+.documents-main{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: center;
+    align-items: center;
+
+}
+.documents-sub div{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #9E5C08;
+
+}
+.documents-sub{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    justify-content: left;
+    align-items: center;
+}
+.place-price{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    margin: 1rem 0rem;
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    justify-content: space-evenly;
+}
+.place{
+    display: flex;
+    column-gap: 0.5rem;
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+.price{
+    display: flex;
+    column-gap: 0.5rem;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+
+}
+.pincode{
+    display: flex;
+    column-gap: 0.5rem;
+    /* border: 1px solid black; */
+    justify-content: center;
+
+}
+.place-price div p{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #9E5C08;
+
+}
+
+/* checkboxes */
+.checkboxes{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.checkboxes-sub{
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E5C08;
+}
+.epcvalue-head{
+    display: flex;
+
+}
+.epcvalue-head p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E5C08;
+}

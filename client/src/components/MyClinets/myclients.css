@@ -1,0 +1,75 @@
+
+.main-div-clients{
+    /* border: 3px solid blue; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.arrow{
+   width: 30%;
+   height: 30%;
+}
+.first-div-clients{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 10%;    
+}
+
+.arrow-div{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+
+}
+.second-div-clients{
+/* border: 2px solid red; */
+width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 10px;
+}
+.card-div{
+background-color: #FFD2B1;
+text-align: center;
+color:#955108;
+width:80%;
+height:100%;
+transform:translate(-50,-50);
+}
+table-div{
+ display: flex;
+ flex-wrap: wrap;
+ min-width: 400px
+}
+.button-client{
+    background-color: #955108;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+}
+.card-div th{
+    color:#955108;
+}
+.card-div td{
+    color:#955108;
+}
+.select {
+    color: #955108;
+}
+@media screen and(min-width: 400px){
+    .first-div-clients{
+        margin-left: 0px;
+    }
+    
+}

@@ -1,0 +1,71 @@
+
+.main-div-tenats{
+    /* border: 3px solid blue; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.arrow{
+   width: 30%;
+   height: 30%;
+}
+.first-div-tenats{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 10%;    
+}
+
+.arrow-div2{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.second-div-tenats{
+/* border: 2px solid red; */
+width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 5px;
+}
+.card-tenats{
+background-color: #FFD2B1;
+text-align: center;
+color:#955108;
+width:80%;
+height:100%;
+transform:translate(-50,-50);
+}
+.button-tenats{
+    background-color: #955108;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+}
+.card-tenats th{
+    color:#955108;
+}
+.card-tenats td{
+    color:#955108;
+}
+.select {
+    color: #955108;
+}
+@media screen and(min-width: 400px){
+    .first-div-tenats{
+        margin-left: 0px;
+    }
+    
+}
